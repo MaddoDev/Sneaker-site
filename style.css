@@ -1,0 +1,146 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-color: #E6E8EC66;
+}
+
+.header {
+    width: 1440px;
+
+    background-color: #fff;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    height: 110px;
+    max-width: 1440px;
+}
+
+.logo {
+    margin-left: 142px;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 24px;
+
+    margin-right: 157px;
+}
+
+.main h1 {
+    color: #121723;
+    font-family: Anonymous Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+
+    margin-top: 25px;
+    margin-left: 140px;
+}
+
+.main {
+    width: 1161px;
+    height: 1340px;
+}
+
+
+.sneaker-container {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+
+    max-height: 394px;
+    column-gap: 24px;
+
+
+
+    margin-top: 24px;
+    margin-left: 140px; 
+
+    width: 1170px;
+    height: 1340px;
+}
+
+.sneaker p{
+    color: #121723;
+
+    margin-left: 24px;
+
+    font-family: Anonymous Pro;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sneaker h2 {
+    color: #121723;
+
+    margin: 10px 24px 32px 24px;
+
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sneaker {
+    max-height: 394px;
+    
+    border-radius: 12px;
+
+    background-color: #fff;
+
+    margin-top: 24px;
+}
+
+.footer {
+    background-color: #121723;
+    max-width: 1440px;
+    height: 142px;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;  
+}
+
+.nav-list-footer {
+    display: flex;
+
+    margin-top: 33px;
+    margin-right: 140px;
+    column-gap: 24px;
+}
+.footer-logo {
+    margin-left: 140px;
+}
+
+.footer hr {
+    width: 1160px;
+    height: 1px;
+    margin: 33px -140px 0 140px;
+
+    background: rgba(230, 232, 236, 0.40);
+}
+
+.footer p {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+
+    color: #A1A6B4;
+    font-family: Anonymous Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
